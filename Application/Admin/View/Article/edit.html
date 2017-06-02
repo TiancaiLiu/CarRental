@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>后台管理系统</title>
+<meta name="author" content="DeathGhost" />
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/Css/style.css">
+<!--[if lt IE 9]>
+<script src="__PUBLIC__/Js/html5.js"></script>
+<![endif]-->
+<script src="__PUBLIC__/Js/jquery.js"></script>
+<script src="__PUBLIC__/Js/jquery.mCustomScrollbar.concat.min.js"></script>
+<script>
+  (function($){
+    $(window).load(function(){
+      
+      $("a[rel='load-content']").click(function(e){
+        e.preventDefault();
+        var url=$(this).attr("href");
+        $.get(url,function(data){
+          $(".content .mCSB_container").append(data); //load new content inside .mCSB_container
+          //scroll-to appended content 
+          $(".content").mCustomScrollbar("scrollTo","h2:last");
+        });
+      });
+      
+      $(".content").delegate("a[href='top']","click",function(e){
+        e.preventDefault();
+        $(".content").mCustomScrollbar("scrollTo",$(this).attr("href"));
+      });
+      
+    });
+  })(jQuery);
+</script>
+</head>
+<body>
+<!--header-->
+<include file='Common:header' />
+<!--aside nav-->
+<include file='Common:aside_nav' />
+<!--content-->
+<section class="rt_wrap content mCustomScrollbar">
+ <div class="rt_content">
+      <div class="page_title">
+       <h2 class="fl">新增文章</h2>
+       <a class="fr top_rt_btn">返回文章列表</a>
+      </div>
+     <form action="__CONTROLLER__/edit" method="post" id="myform" name="myform" enctype="multipart/form-data">
+     <input type="hidden" name="id" value="{$articles.id}">
+     <section>
+      <ul class="ulColumn2">
+       <li>
+        <span class="item_name" style="width:120px;">文章标题：</span>
+        <input type="text" name="title" class="textbox textbox_295" value="{$articles.title}" placeholder="文章标题..."/>
+        <span class="errorTips">必填信息...</span>
+       </li>
+       <li>
+        <span class="item_name" style="width:120px;">文章作者：</span>
+        <input type="text" name="author" class="textbox" value="{$articles.author}" placeholder="文章作者..."/>
+        <span class="errorTips">必填信息...</span>
+       </li>
+       <li>
+        <span class="item_name" style="width:120px;">日租：</span>
+        <input type="text" name="rental" class="textbox" value="{$articles.rental}" placeholder="日租..."/>
+        <span class="errorTips">文章类型若为车型展示，则填写该项(填写数字)...</span>
+       </li>
+       <li>
+        <span class="item_name" style="width:120px;">招聘人数：</span>
+        <input type="text" name="num" class="textbox" value="{$articles.num}" placeholder="招聘人数..."/>
+        <span class="errorTips">文章类型若为人才招聘，则填写该项(填写数字)...</span>
+       </li>
+       <li>
+        <span class="item_name" style="width:120px;">所属栏目：</span>
+        <select class="select" name="cateid">
+         <option value="">选择栏目 ▼</option>
+          <volist name='cates' id='vo'>
+            <option <if condition="$vo['id'] eq $articles['cateid']"> selected="selected"</if> value="{$vo.id}">{$vo.catename}</option>
+          </volist>
+        </select>
+        <span class="errorTips">必填信息...</span>
+       </li>
+       <li>
+        <span class="item_name" style="width:120px;">是否推荐：</span>
+        <label class="single_selection"><input type="radio" name="recommend" <if condition="$articles['recommend'] eq 1"> checked="checked"</if> value="1" />推荐</label>
+        <label class="single_selection"><input type="radio" name="recommend" <if condition="$articles['recommend'] eq 0"> checked="checked"</if> value="0" />不推荐</label>
+       </li>
+       <li>
+        <span class="item_name" style="width:120px;">上传图片：</span>
+        <input type="file" name="pic" value="" />
+        <if condition="$articles['pic'] neq ''">
+        <img src="__ROOT__/{$articles.pic}" width="120px" height="80px;" />
+        <else />
+        暂无缩略图
+        </if>
+       </li>
+       <li>
+        <span class="item_name" style="width:120px;">产品详情：</span>
+        <textarea class="item_name" id="content" name="content">{$articles.content}</textarea>
+       </li>
+       <li>
+        <span class="item_name" style="width:120px;"></span>
+        <input type="submit" name="submit" class="link_btn"/>
+        <input class="link_btn" onclick="history.go(-1)" value="返回" type="button">
+       </li>
+      </ul>
+     </section>
+     </form>
+ </div>
+</section>
+<script src="__PUBLIC__/Js/ueditor.config.js"></script>
+<script src="__PUBLIC__/Js/ueditor.all.min.js"> </script>
+<script type="text/javascript">
+   UE.getEditor('content',{initialFrameWidth:1000,initialFrameHeight:400,});
+</script>
+</body>
+</html>

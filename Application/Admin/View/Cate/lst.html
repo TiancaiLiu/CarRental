@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>后台管理系统</title>
+<meta name="author" content="DeathGhost" />
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/Css/style.css">
+<!--[if lt IE 9]>
+<script src="__PUBLIC__/Js/html5.js"></script>
+<![endif]-->
+<script src="__PUBLIC__/Js/jquery.js"></script>
+<script src="__PUBLIC__/Js/jquery.mCustomScrollbar.concat.min.js"></script>
+<script>
+  (function($){
+    $(window).load(function(){
+      
+      $("a[rel='load-content']").click(function(e){
+        e.preventDefault();
+        var url=$(this).attr("href");
+        $.get(url,function(data){
+          $(".content .mCSB_container").append(data); //load new content inside .mCSB_container
+          //scroll-to appended content 
+          $(".content").mCustomScrollbar("scrollTo","h2:last");
+        });
+      });
+      
+      $(".content").delegate("a[href='top']","click",function(e){
+        e.preventDefault();
+        $(".content").mCustomScrollbar("scrollTo",$(this).attr("href"));
+      });
+      
+    });
+  })(jQuery);
+</script>
+</head>
+<body>
+<!--header-->
+<include file='Common:header' />
+<!--aside nav-->
+<include file='Common:aside_nav' />
+<!--content-->
+<section class="rt_wrap content mCustomScrollbar">
+  <div class="rt_content">
+     <div class="page_title">
+       <h2 class="fl">栏目列表</h2>
+       <a href="__CONTROLLER__/add" class="fr top_rt_btn add_icon">添加栏目</a>
+      </div>
+      <form action="__CONTROLLER__/search" method="post">
+      <section class="mtb">
+       <input type="text" name="keywords" class="textbox textbox_225" placeholder="输入栏目关键字..."/>
+       <input type="submit" value="查询" class="group_btn"/>
+      </section>
+      </form>
+      <form action="__CONTROLLER__/sort" method="post">
+       <input type="submit" name="submit" class="link_btn" value="更新排序" />
+      <table class="table">
+       <tr>
+        <th style="width:10%">排序</th>
+        <th style="width:10%">ID</th>
+        <th>栏目名称</th>
+        <th>操作</th>
+       </tr>
+        <foreach name='list' item='v'>
+         <tr>
+          <td class="center"><input name="{$v.id}" value="{$v.sort}" type="text" style="width: 25px;border-radius: 5px;text-align: center;" /></td>
+          <td class="center">{$v.id}</td>
+          <td class="center">{$v.catename}</td>
+          <td class="center">
+           <a href="__CONTROLLER__/edit/id/{$v.id}" title="编辑" class="link_icon">&#101;</a>
+           <a title="删除" class="link_icon" onclick="return confirm('确定要删除该栏目到回收站吗？');" href="__CONTROLLER__/toTrach/id/{$v.id}">&#100;</a>
+          </td>
+         </tr>
+        </foreach>
+      </table>
+      </form>
+      <aside class="paging">
+       {$page}
+      </aside>
+  </div>
+</section>
+</body>
+</html>

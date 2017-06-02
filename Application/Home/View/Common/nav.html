@@ -1,0 +1,10 @@
+<ul class="nav">
+  <li><a href="" title="首页"><span class="iconfont">&#xe607;</span>首页</a></li>
+  <foreach name='cates' item='v'>
+    <li>
+   	 <a href="__MODULE__/<if condition="$v['id'] eq 1">Aboutus<elseif condition="$v['id'] eq 2"/>Intro<elseif condition="$v['id'] eq 3"/>Rental<elseif condition="$v['id'] eq 4"/>Return<elseif condition="$v['id'] eq 5"/>Moneylist<elseif condition="$v['id'] eq 6"/>Activitylist<elseif condition="$v['id'] eq 7"/>Carlist<elseif condition="$v['id'] eq 8"/>Maintain<elseif condition="$v['id'] eq 9"/>Contact<elseif condition="$v['id'] eq 11"/>Message</if>/index/cateid/{$v.id}" title="关于我们">
+   	 {$v.catename}
+   	 </a>
+    </li>
+  </foreach>
+</ul>

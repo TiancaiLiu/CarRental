@@ -1,0 +1,57 @@
+[ 2017-05-18T08:31:26+08:00 ] 127.0.0.1 /Admin/lst/p/2.html
+ERR: 无法加载控制器:Lst
+
+[ 2017-05-18T09:01:43+08:00 ] 127.0.0.1 /Admin/lst.html
+ERR: 无法加载控制器:Lst
+
+[ 2017-05-18T19:32:52+08:00 ] 127.0.0.1 /Admin/lst/p/2.html
+ERR: 无法加载控制器:Lst
+
+[ 2017-05-18T19:36:51+08:00 ] 127.0.0.1 /Admin/lst/p/3.html
+ERR: 无法加载控制器:Lst
+
+[ 2017-05-18T19:38:28+08:00 ] 127.0.0.1 /Admin/Admin/
+ERR: 非法操作:index
+
+[ 2017-05-18T20:45:19+08:00 ] 127.0.0.1 /Admin/Index/discharge_statistic.html
+ERR: 非法操作:discharge_statistic
+
+[ 2017-05-18T22:24:15+08:00 ] 127.0.0.1 /Admin/lst
+ERR: 无法加载控制器:Lst
+
+[ 2017-05-18T22:24:24+08:00 ] 127.0.0.1 /Cate
+ERR: 非法操作:index
+
+[ 2017-05-18T22:50:27+08:00 ] 127.0.0.1 /Admin/Cate/toTrach/id/12
+ERR: 非法操作:toTrach
+
+[ 2017-05-18T23:02:06+08:00 ] 127.0.0.1 /Cate/trach.html
+ERR: 非法操作:trach
+
+[ 2017-05-18T23:02:17+08:00 ] 127.0.0.1 /Cate
+ERR: 非法操作:index
+
+[ 2017-05-18T23:09:52+08:00 ] 127.0.0.1 /Cate/trach.html
+ERR: 非法操作:trach
+
+[ 2017-05-18T23:09:57+08:00 ] 127.0.0.1 /Cate
+ERR: 非法操作:index
+
+[ 2017-05-18T23:10:02+08:00 ] 127.0.0.1 /Cate%E3%80%81lst
+ERR: 无法加载控制器:Cate、lst
+
+[ 2017-05-18T23:34:04+08:00 ] 127.0.0.1 /Admin/Cate/toTrachAll
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '$map )' at line 1
+
+[ 2017-05-18T23:34:40+08:00 ] 127.0.0.1 /Admin/Cate/toTrachAll
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Array )' at line 1
+
+[ 2017-05-18T23:35:32+08:00 ] 127.0.0.1 /Admin/Cate/toTrachAll
+ERR: 非法操作:toTrachAll
+
+[ 2017-05-18T23:53:12+08:00 ] 127.0.0.1 /Admin/Admin/lst
+ERR: 无法加载控制器:Admin
+
+[ 2017-05-18T23:53:49+08:00 ] 127.0.0.1 /discharge_statistic.html
+ERR: 无法加载控制器:Discharge_statistic
+

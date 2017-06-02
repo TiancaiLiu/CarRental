@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>后台管理系统</title>
+<meta name="author" content="DeathGhost" />
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/Css/style.css">
+<!--[if lt IE 9]>
+<script src="__PUBLIC__/Js/html5.js"></script>
+<![endif]-->
+<script src="__PUBLIC__/Js/jquery.js"></script>
+<script src="__PUBLIC__/Js/jquery.mCustomScrollbar.concat.min.js"></script>
+<script>
+  (function($){
+    $(window).load(function(){
+      
+      $("a[rel='load-content']").click(function(e){
+        e.preventDefault();
+        var url=$(this).attr("href");
+        $.get(url,function(data){
+          $(".content .mCSB_container").append(data); //load new content inside .mCSB_container
+          //scroll-to appended content 
+          $(".content").mCustomScrollbar("scrollTo","h2:last");
+        });
+      });
+      
+      $(".content").delegate("a[href='top']","click",function(e){
+        e.preventDefault();
+        $(".content").mCustomScrollbar("scrollTo",$(this).attr("href"));
+      });
+      
+    });
+  })(jQuery);
+</script>
+</head>
+<body>
+<!--header-->
+<include file='Common:header' />
+<!--aside nav-->
+<include file='Common:aside_nav' />
+<!--content-->
+<section class="rt_wrap content mCustomScrollbar">
+  <div class="rt_content">
+     <div class="page_title">
+       <h2 class="fl">编辑栏目</h2>
+       <a href="__CONTROLLER__/lst" class="fr top_rt_btn">返回栏目列表</a>
+      </div>
+     <form action="__CONTROLLER__/edit" method="post" id="myform" name="myform" enctype="multipart/form-data">
+     <input type="hidden" name="id" value="{$cates.id}">
+     <section>
+      <ul class="ulColumn2">
+       <li>
+        <span class="item_name" style="width:120px;">栏目名称：</span>
+        <input type="text" class="textbox textbox_295" name="catename" value="{$cates.catename}" placeholder="栏目名称..."/>
+        <span class="errorTips">必填</span>
+       </li>
+       <li>
+        <span class="item_name" style="width:120px;"></span>
+        <input type="submit" name="submit" class="link_btn"/>
+        <input type="button" class="link_btn" value="返回" onclick="history.go(-1)">
+       </li>
+      </ul>
+     </section>
+     </form>
+  </div>
+</section>
+</body>
+</html>

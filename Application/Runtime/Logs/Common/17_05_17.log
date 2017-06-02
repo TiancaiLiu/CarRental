@@ -1,0 +1,288 @@
+[ 2017-05-17T08:58:37+08:00 ] ::1 /carshop/user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000391s ]
+ERR: 无法加载模块:User
+
+[ 2017-05-17T09:17:01+08:00 ] ::1 /carshop/css/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000486s ]
+ERR: 无法加载模块:Css
+
+[ 2017-05-17T09:17:01+08:00 ] ::1 /carshop/js/jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000379s ]
+ERR: 无法加载模块:Js
+
+[ 2017-05-17T09:17:01+08:00 ] ::1 /carshop/js/jquery.mCustomScrollbar.concat.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+ERR: 无法加载模块:Js
+
+[ 2017-05-17T09:17:01+08:00 ] ::1 /carshop/js/amcharts.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+ERR: 无法加载模块:Js
+
+[ 2017-05-17T09:17:01+08:00 ] ::1 /carshop/js/pie.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000860s ]
+ERR: 无法加载模块:Js
+
+[ 2017-05-17T09:17:01+08:00 ] ::1 /carshop/js/serial.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001006s ]
+ERR: 无法加载模块:Js
+
+[ 2017-05-17T09:17:01+08:00 ] ::1 /carshop/images/admin_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001206s ]
+ERR: 无法加载模块:Images
+
+[ 2017-05-17T09:17:01+08:00 ] ::1 /carshop/js/amcharts.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000417s ]
+ERR: 无法加载模块:Js
+
+[ 2017-05-17T09:17:01+08:00 ] ::1 /carshop/js/serial.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+ERR: 无法加载模块:Js
+
+[ 2017-05-17T09:17:01+08:00 ] ::1 /carshop/js/pie.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+ERR: 无法加载模块:Js
+
+[ 2017-05-17T09:27:26+08:00 ] ::1 /carshop/js/jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000595s ]
+ERR: 无法加载模块:Js
+
+[ 2017-05-17T09:27:26+08:00 ] ::1 /carshop/js/jquery.mCustomScrollbar.concat.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000505s ]
+ERR: 无法加载模块:Js
+
+[ 2017-05-17T09:27:26+08:00 ] ::1 /carshop/js/amcharts.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000733s ]
+ERR: 无法加载模块:Js
+
+[ 2017-05-17T09:27:26+08:00 ] ::1 /carshop/js/pie.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000520s ]
+ERR: 无法加载模块:Js
+
+[ 2017-05-17T09:27:26+08:00 ] ::1 /carshop/Application/Admin/Public/Css/font/adminthemes-webfont.woff2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000709s ]
+ERR: 无法加载模块:Application
+
+[ 2017-05-17T09:27:26+08:00 ] ::1 /carshop/js/serial.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000713s ]
+ERR: 无法加载模块:Js
+
+[ 2017-05-17T09:27:26+08:00 ] ::1 /carshop/images/admin_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000413s ]
+ERR: 无法加载模块:Images
+
+[ 2017-05-17T09:27:27+08:00 ] ::1 /carshop/Application/Admin/Public/Css/font/adminthemes-webfont.woff
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000658s ]
+ERR: 无法加载模块:Application
+
+[ 2017-05-17T09:27:27+08:00 ] ::1 /carshop/Application/Admin/Public/Css/font/adminthemes-webfont.ttf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000647s ]
+ERR: 无法加载模块:Application
+
+[ 2017-05-17T09:27:27+08:00 ] ::1 /carshop/js/amcharts.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000702s ]
+ERR: 无法加载模块:Js
+
+[ 2017-05-17T09:27:27+08:00 ] ::1 /carshop/js/serial.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000220s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000921s ]
+ERR: 无法加载模块:Js
+
+[ 2017-05-17T09:27:27+08:00 ] ::1 /carshop/js/pie.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000442s ]
+ERR: 无法加载模块:Js
+
+[ 2017-05-17T09:29:36+08:00 ] ::1 /carshop/Application/Admin/Public/Css/font/adminthemes-webfont.woff2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000808s ]
+ERR: 无法加载模块:Application
+
+[ 2017-05-17T09:29:36+08:00 ] ::1 /carshop/Application/Admin/Public/Css/font/adminthemes-webfont.woff
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000600s ]
+ERR: 无法加载模块:Application
+
+[ 2017-05-17T09:29:36+08:00 ] ::1 /carshop/Application/Admin/Public/Css/font/adminthemes-webfont.ttf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000413s ]
+ERR: 无法加载模块:Application
+
+[ 2017-05-17T09:29:47+08:00 ] ::1 /carshop/Application/Admin/Public/Css/font/adminthemes-webfont.woff2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000377s ]
+ERR: 无法加载模块:Application
+
+[ 2017-05-17T09:29:47+08:00 ] ::1 /carshop/Application/Admin/Public/Css/font/adminthemes-webfont.woff
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000400s ]
+ERR: 无法加载模块:Application
+
+[ 2017-05-17T09:29:47+08:00 ] ::1 /carshop/Application/Admin/Public/Css/font/adminthemes-webfont.ttf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000687s ]
+ERR: 无法加载模块:Application
+
+[ 2017-05-17T09:30:10+08:00 ] ::1 /carshop/Application/Admin/Public/Css/font/adminthemes-webfont.woff2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000910s ]
+ERR: 无法加载模块:Application
+
+[ 2017-05-17T09:31:44+08:00 ] ::1 /carshop/Application/Admin/Public/Css/font/adminthemes-webfont.woff2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000734s ]
+ERR: 无法加载模块:Application
+
+[ 2017-05-17T09:31:44+08:00 ] ::1 /carshop/Application/Admin/Public/Css/font/adminthemes-webfont.woff
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000639s ]
+ERR: 无法加载模块:Application
+
+[ 2017-05-17T09:31:44+08:00 ] ::1 /carshop/Application/Admin/Public/Css/font/adminthemes-webfont.ttf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000444s ]
+ERR: 无法加载模块:Application
+
+[ 2017-05-17T09:31:44+08:00 ] ::1 /carshop/Application/Admin/Public/Css/font/adminthemes-webfont.woff2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000629s ]
+ERR: 无法加载模块:Application
+
+[ 2017-05-17T09:31:44+08:00 ] ::1 /carshop/Application/Admin/Public/Css/font/adminthemes-webfont.woff
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000149s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001122s ]
+ERR: 无法加载模块:Application
+
+[ 2017-05-17T09:31:44+08:00 ] ::1 /carshop/Application/Admin/Public/Css/font/adminthemes-webfont.ttf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000909s ]
+ERR: 无法加载模块:Application
+
+[ 2017-05-17T09:32:48+08:00 ] ::1 /carshop/Application/Admin/Public/Css/font/adminthemes-webfont.woff2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000926s ]
+ERR: 无法加载模块:Application
+
+[ 2017-05-17T09:32:48+08:00 ] ::1 /carshop/Application/Admin/Public/Css/font/adminthemes-webfont.woff
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001005s ]
+ERR: 无法加载模块:Application
+
+[ 2017-05-17T09:32:48+08:00 ] ::1 /carshop/Application/Admin/Public/Css/font/adminthemes-webfont.ttf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000681s ]
+ERR: 无法加载模块:Application
+
+[ 2017-05-17T09:32:48+08:00 ] ::1 /carshop/Application/Admin/Public/Css/font/adminthemes-webfont.woff2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000600s ]
+ERR: 无法加载模块:Application
+
+[ 2017-05-17T09:32:49+08:00 ] ::1 /carshop/Application/Admin/Public/Css/font/adminthemes-webfont.woff
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000547s ]
+ERR: 无法加载模块:Application
+
+[ 2017-05-17T09:32:49+08:00 ] ::1 /carshop/Application/Admin/Public/Css/font/adminthemes-webfont.ttf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000109s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001023s ]
+ERR: 无法加载模块:Application
+
+[ 2017-05-17T09:33:16+08:00 ] ::1 /carshop/Application/Admin/Public/Css/font/adminthemes-webfont.woff2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000644s ]
+ERR: 无法加载模块:Application
+
+[ 2017-05-17T09:33:16+08:00 ] ::1 /carshop/Application/Admin/Public/Css/font/adminthemes-webfont.woff
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000374s ]
+ERR: 无法加载模块:Application
+
+[ 2017-05-17T09:33:16+08:00 ] ::1 /carshop/Application/Admin/Public/Css/font/adminthemes-webfont.ttf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000642s ]
+ERR: 无法加载模块:Application
+
+[ 2017-05-17T09:34:49+08:00 ] ::1 /carshop/order_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+ERR: 无法加载模块:Order_list
+
+[ 2017-05-17T09:34:51+08:00 ] ::1 /carshop/product_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000559s ]
+ERR: 无法加载模块:Product_list
+
+[ 2017-05-17T09:37:21+08:00 ] ::1 /carshop/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+ERR: 无法加载模块:Index
+

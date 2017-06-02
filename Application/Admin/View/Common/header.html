@@ -1,0 +1,11 @@
+<!--header-->
+<header>
+ <h1><img src="__PUBLIC__/Images/admin_logo.png"/></h1>
+ <ul class="rt_nav">
+  <li><a href="__MODULE__/Index/index" class="website_icon">站点首页</a></li>
+  <li><a href="__MODULE__/Index/cache" class="clear_icon">清除缓存</a></li>
+  <li><a href="#" class="admin_icon"><?php echo $_SESSION['username']?></a></li>
+  <li><a href="__MODULE__/Manage/edit/id/<?php echo $_SESSION['id']?>" class="set_icon">账号设置</a></li>
+  <li><a href="__MODULE__/Index/logout" class="quit_icon">安全退出</a></li>
+ </ul>
+</header>
